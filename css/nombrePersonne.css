@@ -92,16 +92,10 @@
         font-weight: 700;
     }
 
-    .perso input{
+    .perso  {
         text-align: center;
-        border: none;
-        background: none;
         color: #a7a7a7;
         font-weight: 700;
-    }
-
-    .perso input:focus {
-        border: #8bbd00;
     }
     
     .selected {
