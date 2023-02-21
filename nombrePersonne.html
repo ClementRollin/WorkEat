@@ -5,28 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/nombrePersonne.css">
+    <link rel="shortcut icon" href="img/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>WorkEat</title>
 </head>
 <body>
     <div class="container-fluid background">
         <div class="container headerContent">
-            <h1>WorkEat</h1>
+            <img src="img/logo.png">
         </div>
-        <div class="container question">
-            <h3>Combien de personnes voulez-vous à votre table ?</h3>
+    </div>
+    <div class="container-fluid question">
+        <div class="container questionContent">
+            <h2>Combien de personnes à votre table ?</h2>
+        </div>
+    </div>
+    <div class="container-fluid backgroundReponse">
+        <div class="container places">
+            <h3>Nombre de places</h3>
         </div>
         <div class="container reponse">
             <ul id="mobile-list">
-                <li class="list-item">2</li>
-                <li class="list-item">3</li>
-                <li class="list-item">4</li>
-                <li class="list-item">5</li>
-                <li class="list-item">6</li>
-                <li class="list-item">7</li>
-                <li class="list-item">8</li>
-                <li class="list-item">9</li>
-                <li class="list-item">10</li>
+                <li class="list-item place paire">2 places</li>
+                <li class="list-item place paire">3 places</li>
+                <li class="list-item place paire">4 places</li>
+                <li class="list-item place perso">
+                    <input type="number" min="5" placeholder="Table personnalisée...">
+                </li>
             </ul>
         </div>
         <a href="pagesSuivantes/heureRepas.html">
